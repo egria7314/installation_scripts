@@ -1,4 +1,6 @@
 #!/bin/bash
+# swapoff
+sudo swapoff -a
 # create kubernetes cluster
 sudo sysctl net.bridge.bridge-nf-call-iptables=1
 # specify the ip address of master
